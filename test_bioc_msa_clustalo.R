@@ -1,3 +1,4 @@
+# http://bioconductor.org/packages/release/bioc/vignettes/msa/inst/doc/msa.pdf
 library(msa)
 fasta.file <- readAAStringSet("~/Desktop/clustalomega/test_input.fasta")
 myFirstAlignment <- msa(fasta.file, "ClustalOmega")

@@ -1,5 +1,5 @@
 library(msa)
-fasta.file <- readAAStringSet("/Users/michaelmaguire/Desktop/clustalomega/test_input.fasta")
+fasta.file <- readAAStringSet("~/Desktop/clustalomega/test_input.fasta")
 myFirstAlignment <- msa(fasta.file, "ClustalOmega")
-sink(file = "/Users/michaelmaguire/Desktop/clustalomega/test_bioc_msa_output.txt")
+sink(file = "~/Desktop/clustalomega/test_bioc_msa_output.txt")
 print(myFirstAlignment, showNames=TRUE, show="complete")
